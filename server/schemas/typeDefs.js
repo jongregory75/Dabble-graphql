@@ -1,11 +1,15 @@
 const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
-  type Dabble {
+  type DabbleModel {
     country: String
     year: String
-    area_square_kilometres: Number
-    total_population: Number
+    area_square_kilometres: Int
+    total_population: Int
   }
   type Query {
-    dabble: [Dabble]`;
+    selectDabble: [DabbleModel]
+  }
+`;
+
+module.exports = typeDefs;
