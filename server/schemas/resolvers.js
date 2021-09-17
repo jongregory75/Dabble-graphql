@@ -1,10 +1,10 @@
 // Use the Dabble model
-const { Dabble } = require("../models");
+const DabbleModel = require("../models");
 
 const resolvers = {
   Query: {
-    dabble: async () => {
-      return await Dabble.find();
+    selectDabble: async () => {
+      return await DabbleModel.find({});
     },
   },
 };

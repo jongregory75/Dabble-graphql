@@ -2,7 +2,7 @@
   {
     "country": "Albania",
     "year": "2000",
-    "area_square kilometres": 28748,
+    "area_square_kilometres": 28748,
     "total_population": 3401198
   },
   {
@@ -11,14 +11,12 @@
     "area_square_kilometres": 28748,
     "total_population": 3073734
   },
-
   {
     "country": "Albania",
     "year": "2002",
     "area_square_kilometres": 28748,
     "total_population": 3093465
   },
-
   {
     "country": "Albania",
     "year": "2003",

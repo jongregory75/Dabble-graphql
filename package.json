@@ -4,8 +4,10 @@
   "description": "Simple graphql api for Dabble Labs",
   "main": "server/server.js",
   "scripts": {
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "seed": "cd server && npm run seed"
+    "develop": "concurrently \"cd server && npm run watch\" ",
+    "install": "cd server && npm i",
+    "seed": "cd server && npm run seed",
+    "start": "node server/server.js"
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
