@@ -1,0 +1,20 @@
+{
+  "name": "dabble-labs-graphql",
+  "version": "1.0.0",
+  "description": "Simple graphql api for Dabble Labs",
+  "main": "server/server.js",
+  "scripts": {
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "seed": "cd server && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongregory75/Dabble-graphql.git"
+  },
+  "author": "Jon Gregory",
+  "license": "ISC",
+  "homepage": "https://github.com/jongregory75/Dabble-graphql#readme"
+}
